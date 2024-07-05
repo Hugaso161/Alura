@@ -32,11 +32,8 @@ public class Main {
          else if(moneda1==0){
 
              moneda1 =valorMoneda(1);
-         } else if (moneda2==0) {
+         } else {
              moneda2 = valorMoneda(2);
-         }
-         else {
-
          }
      }
         System.out.println("El monto total es: "+  new conversion_monedas().convertor(moneda1, moneda2, monto));

@@ -26,7 +26,7 @@ public class Monedas {
       double BOB;
     @JsonProperty("COP")
       double COP;
-   Map<String, Double> mapMonedas;
+
 public Monedas(){
 
 }
